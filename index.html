@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepaEngine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating Math Symbols -->
+        <div class="math-bg">
+            <div class="math-symbol" style="top: 10%; left: 15%; animation-delay: 0s;">∫ f(x)dx</div>
+            <div class="math-symbol" style="top: 25%; left: 80%; animation-delay: 2s;">∑ᵢ₌₁ⁿ xᵢ</div>
+            <div class="math-symbol" style="top: 60%; left: 10%; animation-delay: 4s;">∂f/∂x</div>
+            <div class="math-symbol" style="top: 40%; left: 70%; animation-delay: 1s;">lim_{x→∞}</div>
+            <div class="math-symbol" style="top: 80%; left: 60%; animation-delay: 3s;">√(x² + y²)</div>
+            <div class="math-symbol" style="top: 15%; left: 45%; animation-delay: 5s;">e^(iπ) + 1 = 0</div>
+            <div class="math-symbol" style="top: 70%; left: 25%; animation-delay: 2.5s;">∇ · F = 0</div>
+            <div class="math-symbol" style="top: 35%; left: 90%; animation-delay: 4.5s;">α + β = γ</div>
+            <div class="math-symbol" style="top: 55%; left: 5%; animation-delay: 1.5s;">sin²θ + cos²θ</div>
+            <div class="math-symbol" style="top: 90%; left: 75%; animation-delay: 3.5s;">∀x ∈ ℝ</div>
+            <div class="math-symbol" style="top: 20%; left: 65%; animation-delay: 0.5s;">π</div>
+            <div class="math-symbol" style="top: 75%; left: 85%; animation-delay: 2.8s;">∞</div>
+            <div class="math-symbol" style="top: 45%; left: 30%; animation-delay: 4.2s;">Φ</div>
+            <div class="math-symbol" style="top: 65%; left: 95%; animation-delay: 1.8s;">λ</div>
+            <div class="math-symbol" style="top: 85%; left: 40%; animation-delay: 3.2s;">∂²u/∂t²</div>
+            
+            <!-- Drifting equations -->
+            <div class="drift-equation drift-left" style="top: 30%;">f'(x) = lim_{h→0} [f(x+h)-f(x)]/h</div>
+            <div class="drift-equation drift-right" style="top: 70%;">∫₋∞^∞ e^(-x²/2) dx = √(2π)</div>
+            <div class="drift-equation drift-left" style="top: 50%;">P(A|B) = P(B|A)P(A)/P(B)</div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1 class="title">PrepaEngine</h1>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search" data-testid="input-search">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Version -->
+        <div class="version">PrepaEngine v1.1.7</div>
+    </div>
+</body>
+</html>
